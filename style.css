@@ -1,0 +1,152 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;}
+
+.relative {
+    position: relative;
+align-items: center;
+justify-content: center;
+
+} 
+  
+  .absolute {
+    position: absolute;
+    align-items:center;
+    ;
+  }
+.tnw{
+background-color: blueviolet;
+}
+  
+  
+  .navbar {
+    position: sticky;
+    background-color:white;
+  }
+
+     .feature-cont{
+      font-weight: 700;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: left;
+        padding-top: 300px;  
+      padding-left: 300px;   }
+       
+    .apppage{
+background-color: blueviolet;
+       }
+  /*----badge*/
+  @media only screen and (max-width:320px) {
+    .feature-cont {
+     text-align: center;
+     padding-left: 2px;
+
+    }
+  }
+  @media only screen and (max-width:620px) {
+    .feature-cont {
+     text-align: center;
+     padding-left: 2px;
+
+    }
+  }
+       @media only screen and (min-width:620px) {
+        .feature-cont {
+         text-align: center;
+         padding-left: 50px;
+  
+        }
+      }
+      /*--------mobile*/
+      @media only screen and (max-width:768px) {
+       .masthead-device-mockup{
+        padding-left:200px;
+       }
+      }
+      @media only screen and (max-width:320px) {
+        .masthead-device-mockup{
+      padding-left:3px;
+        }
+        }
+      
+      @media only screen and (max-width:620px) {
+        .masthead-device-mockup{
+          padding-left: 35px;
+        }
+      }
+      /*---mobile2*/
+      @media only screen and (max-width:768px) {
+        .col-lg-4{
+         padding-left: 200px;
+        }
+       }
+      
+     
+      @media only screen and (  max-width:320px) {
+    
+        .col-lg-4{
+         padding-left: 5px;
+        }}
+        @media only screen and (  max-width:375px) {
+    
+          .col-lg-4{
+           padding-left: 2px;
+          }}
+        @media only screen and (  max-width:620px) {
+    
+          .col-lg-4{
+           padding-left: 55px;
+          }}
+
+          /*----menu*/
+        @media only screen and (max-width:320px) {
+          .navbar-toggler{
+            margin-left: 173px;
+    margin-top: -44px;
+    
+}
+          } @media only screen and (  max-width:375px) {
+    
+            .col-lg-4{
+             padding-left: 35px;
+            }}
+
+            @media only screen and (  max-width:375px) {
+    
+              .masthead-device-mockup {
+               padding-left: 10px;
+              }}
+
+
+          @media only screen and (max-width:620px) {
+            .app-badge1{
+              width: 172px;
+              height: 7px;}
+              .app-badge2{
+                width: 172px;
+                height: 7px;
+      
+  }
+            }
+            
+          @media only screen and (max-width:620px) {
+            .app-badge1{
+              width: 172px;
+              height: 7px;}
+              .app-badge2{
+                width: 172px;
+                height: 7px;
+                }
+            }
+            @media screen and (max-width:320px) {
+               .rounded-circle{
+                margin-left: -22px;
+              }
+              .img{
+                margin-left: -20px;
+              }
+              .image{
+                margin-left:-20px;
+              }
+            }
+         
